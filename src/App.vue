@@ -18,8 +18,8 @@ body{
 	min-width:100vw;
 	max-width:100vw;
 	height:100vh;
-	min-height:100vh;
-	max-height:100vh;
+	//min-height:100vh;
+	//max-height:100vh;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

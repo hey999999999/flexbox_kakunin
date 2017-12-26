@@ -62,7 +62,7 @@ export default {
 <style scoped lang="scss">
 .hello {
   display: flex;
-  min-height: 100vh;
+  height: 100vh;
   flex-direction: column;
 }
 
@@ -88,8 +88,9 @@ header, footer {
 	flex-grow: 1;
 	flex-basis: 0;
 	overflow-y: scroll;
-	max-height: 100%;
-	min-height: 100%;
+	//max-height: 100%;
+	//min-height: 100%;
+	height: 100%;
 	border: solid 1px blue;
 }
 
